@@ -1,0 +1,122 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background:url(eg.jpg) no-repeat center center fixed;
+  background-size: cover;
+  color: #fff;
+  /* Ensure that all content blends with the background */
+}
+
+header {
+  background-color: rgba(0, 128, 0, 0.7); /* Semi-transparent background */
+  color: #fff;
+  padding: 1em;
+  text-align: center;
+  position: relative;
+  z-index: 1; /* Ensure the header is above the background image */
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center; /* Center the navigation items */
+}
+
+nav li {
+  margin-right: 20px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline; /* Add underline on hover */
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2em;
+  box-sizing: border-box;
+  position: relative;
+  z-index: 1; /* Ensure content is above the background image */
+}
+
+.hero {
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)), url('eg.jpg'); /* Gradient overlay */
+  background-size: cover;
+  color: #fff;
+  padding: 7em;
+  text-align: center;
+  position: relative;
+  z-index: 1; /* Ensure content is above the background image */
+}
+
+.hero-content {
+  position: relative;
+  z-index: 1; /* Ensure content is above the gradient overlay */
+}
+
+.hero h1 {
+  font-size: 2.5em;
+  margin-bottom: 0.5em;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8); /* Add text shadow for better readability */
+}
+
+.hero p {
+  font-size: 1.2em;
+  margin-bottom: 1.5em;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.8); /* Add text shadow for better readability */
+}
+
+.hero button {
+  background-color: #ffcc00;
+  border: none;
+  color: #333;
+  padding: 10px 20px;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.hero button:hover {
+  background-color: #ffaa00;
+  transform: scale(1.05);
+}
+
+.features, .plans {
+  margin-top: 2em;
+}
+
+.features ul, .plans ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.features li, .plans li {
+  margin-bottom: 1em;
+}
+
+.features i {
+  margin-right: 10px;
+}
+
+footer {
+  background-color: rgba(0, 128, 0, 0.7); /* Semi-transparent background */
+  color: #fff;
+  padding: 1em;
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  z-index: 1; /* Ensure footer is above the background image */
+}

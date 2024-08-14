@@ -1,0 +1,133 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #f0f8f1;
+    background: rgb(3, 64, 3);
+}
+
+header {
+    background-color: #1db954;
+    padding: 1rem;
+    color: white;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+}
+
+.nav-links li a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    padding: 2rem 1rem;
+}
+
+.artist-list {
+    text-align: center;
+}
+
+.artist-list h1 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+}
+.artist-list li{
+    font-size: 2rem;
+    margin-bottom: 1.5rem;  
+}
+
+.artists {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 1rem;
+}
+
+.artist-card {
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding: 1rem;
+}
+
+ .artist-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    object-fit: cover;
+   
+    
+    
+}
+
+.artist-card h2 {
+    font-size: 1.25rem;
+    margin-top: 0.5rem;
+}
+.song-list {
+    text-align: center;
+}
+
+
+.song-list h1 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+}
+.song-list li{
+    font-size: 5rem;
+    margin-bottom: 1.5rem;  }
+.songs {
+    display: inline-flex;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 2rem;
+
+}
+
+
+.song-card img{
+    width: 80%;
+    height: auto;
+    border-radius: 8px;
+    object-fit: cover;
+    
+    
+    
+}
+.song-card h2 {
+    font-size: 1.25rem;
+    margin-top: 0.5rem;
+}
+
+
+footer {
+    background-color: #191414;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+
+
+
+
+
+
+    
